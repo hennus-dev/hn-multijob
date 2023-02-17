@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/cf-crack-and');
+.container {
+    background-color: rgba(0, 0, 0, 0.587);
+    border-radius: 10px;
+    width: 30vh;
+    height: auto;
+    min-height: 20vh;
+    position: absolute;
+    top: 2vh;
+    left: 70vh;
+    z-index: -1;
+    display: none;
+}
+
+.header {
+    position: relative;
+    background-color: rgba(161, 0, 27, 0.741);
+    border-radius: 10px;
+    width: 90%;
+    height: 8vh;
+    left:5%;
+    z-index: 0;
+}
+
+.header h1 {
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+    font-family: 'CF Crack and Bold', bold;
+}
+
+.btn-cont {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    height: 20vh;
+    left:5%;
+    z-index: 0;
+}
+
+.btn {
+    position: relative;
+    background-color: rgba(161, 0, 27, 0.741);
+    border-radius: 10px;
+    width: 90%;
+    height: 8vh;
+    left:5%;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
